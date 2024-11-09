@@ -18,7 +18,7 @@ public class TimeFormat {
         String meridiem = "AM";
 
         if (hours == 0) {
-            hours = 12; 
+            hours = 0; 
         } else if (hours == 12) {
             meridiem = "PM"; 
         } else if (hours > 12) {

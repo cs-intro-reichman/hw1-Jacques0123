@@ -5,7 +5,7 @@ public class NumWords {
 
         int number = Integer.parseInt(args[0]);
 
-        int h = (number / 100) % 10;
+        int h = (number / 100);
         int t = (number / 10) % 10;
         int o = number % 10;
 
